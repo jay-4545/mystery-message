@@ -49,6 +49,12 @@ function SignInPage() {
       }
     }
 
+    if (result?.ok) {
+      toast.success("Login successfully", {
+        description: "User login successfully",
+      });
+    }
+
     if (result?.url) {
       router.replace("/dashboard");
     }

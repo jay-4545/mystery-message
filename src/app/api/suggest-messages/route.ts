@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-export async function POST(req: Request) {
+export async function POST() {
   try {
     const response = await fetch(
       "https://api.deepinfra.com/v1/openai/completions",
