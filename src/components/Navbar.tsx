@@ -111,9 +111,9 @@ function Navbar() {
   return (
     <nav className="2xl:px-[200px] md:px-12 px-6 py-6 shadow-md relative ">
       <div className="justify-between items-center hidden lg:flex">
-        <a className="lg:text-4xl md:text-3xl text-xl font-bold" href="/">
+        <Link className="lg:text-4xl md:text-3xl text-xl font-bold" href="/">
           Mystery Message
-        </a>
+        </Link>
 
         <div>
           {session ? (
@@ -150,9 +150,9 @@ function Navbar() {
       </div>
 
       <div className="lg:hidden flex justify-between items-center">
-        <a className="text-xl font-bold" href="/">
+        <Link className="text-xl font-bold" href="/">
           Mystery Message
-        </a>
+        </Link>
 
         <StyledWrapper>
           <button
